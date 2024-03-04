@@ -1,11 +1,11 @@
 import React from "react";
-import { UserContext, ChannelContext,ShopContext } from "../../App";
+// import { UserContext, ChannelContext,ShopContext } from "../../App";
 
 function Compontet_C() {
   return (
     <main>
       <div>
-        <UserContext.Consumer>
+        {/* <UserContext.Consumer>
           {(user) => {
             return (
               <ChannelContext.Consumer>
@@ -25,7 +25,7 @@ function Compontet_C() {
               </ChannelContext.Consumer>
             );
           }}
-        </UserContext.Consumer>
+        </UserContext.Consumer> */}
       </div>
     </main>
   );

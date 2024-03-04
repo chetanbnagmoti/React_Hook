@@ -1,16 +1,17 @@
 import React from 'react';
 import './App.css';
+import ComponetA from './Components/HOOKS/useContext/UseContextNew/ComponetA';
 
-import Count1 from './Components/HOOKS/customHook/Count1';
-import Count2 from './Components/HOOKS/customHook/Count2';
+export const UserContext=React.createContext();
 
 //App is commonet.
 function App() {
+
   return  (
     <div className='App'>
-      
-      <Count1 />
-      <Count2 />
+      <UserContext.Provider value={{name:'chetan'}} >
+      <ComponetA />
+      </UserContext.Provider>
     </div>
   )   
   
