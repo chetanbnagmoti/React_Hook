@@ -3,6 +3,7 @@ import './App.css';
 import Compontet_A from './Components/HOOKS/useReducer_useContext/Componet_A';
 import Compontet_B from './Components/HOOKS/useReducer_useContext/Componet_B';
 import Compontet_C from './Components/HOOKS/useReducer_useContext/Componet_C';
+import DataFetching_without_useReducer from './Components/HOOKS/DataFetching/DataFetching_without_useReducer';
 
 
 export const CountContext =React.createContext();
@@ -31,6 +32,7 @@ function App() {
          <Compontet_A />
          <Compontet_B />
          <Compontet_C />
+         <DataFetching_without_useReducer />
     </div>
     </CountContext.Provider>
   )   

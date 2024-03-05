@@ -28,4 +28,7 @@ function ParentComponet(){
 }
 export default React.memo(ParentComponet) ;
 
-//useCallBack(funtion,[dependecyArry]):-
+//useCallBack(funtion,[dependecyArry]):-it is hook that will a memoixed version of the callback fuction that only chnages if one of the dependecies has chnaged.
+
+//To stop rendering of componet.
+//React.meno =>It is High order componet it is used to don't render thouse componet have not props or state are chnages .
