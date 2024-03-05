@@ -1,5 +1,8 @@
 import React,{useContext} from "react";
 import { CountContext } from "../../../App";
+
+//useReducer => Local state maintain + useContext => both used for maintaine globale state
+
 function Compontet_A() {
   const countContext =useContext(CountContext);
   return <div>Compontet_A  = =  {countContext.countState}
