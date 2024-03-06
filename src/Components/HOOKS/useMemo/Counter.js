@@ -20,6 +20,14 @@ function Counter() {
     while (i < 200000) i++;
     return countOne % 2 == 0;
   }, [countOne]);
+  
+  
+
+  // const isEven =()=>{
+  //   let i=0;
+  //   while (i<2000000000) i++;
+  //   return countOne % 2 === 0;
+  // }
 
   return (
     <main>
@@ -35,4 +43,4 @@ function Counter() {
 }
 export default Counter;
 //useMemo:-avoding every time rendering.=>when invok cachs result and fuction
-//useMemo(function(),[DependencyArrya])
+//useMemo(function(),[DependencyArrya]) :- 

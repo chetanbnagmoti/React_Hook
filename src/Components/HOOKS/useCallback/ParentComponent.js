@@ -4,7 +4,8 @@ import Button from "./Button";
 import Count from "./Count";
 function ParentComponet(){
 
-
+ //useCallback used for performance optimization:-
+ 
     const[salary,setSalary]=useState(100);
     const[age,setAge]=useState(25);
      
